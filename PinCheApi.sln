@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{966A2BDF-EE93-46A5-BFC7-0D58EE62A36E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{3204834C-509F-4D32-B86F-079E7C6CBD2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Helper\Config.csproj", "{3204834C-509F-4D32-B86F-079E7C6CBD2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{9D9EB2E4-DD37-4914-8A0F-BABD5C656F65}"
 EndProject

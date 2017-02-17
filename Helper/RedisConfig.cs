@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Helper
+namespace Config
 {
     public class RedisConfig
     {

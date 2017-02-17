@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\PinCheApi\Dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,10 @@
     <ProjectReference Include="..\Dal\Dal.csproj">
       <Project>{966a2bdf-ee93-46a5-bfc7-0d58ee62a36e}</Project>
       <Name>Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helper\Config.csproj">
+      <Project>{3204834c-509f-4d32-b86f-079e7c6cbd2f}</Project>
+      <Name>Config</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

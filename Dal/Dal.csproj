@@ -30,11 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PinCheApi\Dll\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceStack.Interfaces">
-      <HintPath>..\..\Ant\后台框架\Dll\redis1\ServiceStack.Interfaces.dll</HintPath>
+      <HintPath>..\PinCheApi\Dll\ServiceStack.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Redis">
-      <HintPath>..\..\Ant\后台框架\Dll\redis1\ServiceStack.Redis.dll</HintPath>
+      <HintPath>..\PinCheApi\Dll\ServiceStack.Redis.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,9 +55,9 @@
     <Compile Include="UserDal.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Helper\Helper.csproj">
+    <ProjectReference Include="..\Helper\Config.csproj">
       <Project>{3204834c-509f-4d32-b86f-079e7c6cbd2f}</Project>
-      <Name>Helper</Name>
+      <Name>Config</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
