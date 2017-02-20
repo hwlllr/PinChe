@@ -9,7 +9,7 @@ using System.Web.Http;
 namespace PinCheApi.Controllers
 {
     /// <summary>
-    /// UserService
+    /// 用户相关API
     /// </summary>
     public class UserController : ApiController
     {
@@ -27,8 +27,8 @@ namespace PinCheApi.Controllers
         [HttpGet]
         public string Register(string openid,string appid,string userName,string userPhoto,string region,string gender,string network)
         {
-            string userid= UserBll.Register(openid, appid, userName, userPhoto, region, gender, network);
-            return JsonConvert.SerializeObject(userid);
+            string result= UserBll.Register(openid, appid, userName, userPhoto, region, gender, network);
+            return result;
         }
     }
 }
