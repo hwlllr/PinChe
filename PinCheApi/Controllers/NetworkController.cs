@@ -3,14 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
+using System.Web.Http;
 
 namespace PinCheApi.Controllers
 {
     /// <summary>
     /// 网络相关API
     /// </summary>
-    public class NetworkController : Controller
+    public class NetworkController :ApiController
+
     {
         /// <summary>
         /// 注册网络接口
