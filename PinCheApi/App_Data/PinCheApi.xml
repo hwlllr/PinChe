@@ -481,9 +481,26 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:PinCheApi.Controllers.NetworkController">
+            <summary>
+            网络相关API
+            </summary>
+        </member>
+        <member name="M:PinCheApi.Controllers.NetworkController.Register(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            注册网络接口
+            </summary>
+            <param name="openid">openid</param>
+            <param name="appid">appid</param>
+            <param name="userName">账号</param>
+            <param name="password">密码</param>
+            <param name="userPhoto">用户头像</param>
+            <param name="money">交易金额</param>
+            <returns>返回networkId</returns>
+        </member>
         <member name="T:PinCheApi.Controllers.UserController">
             <summary>
-            UserService
+            用户相关API
             </summary>
         </member>
         <member name="M:PinCheApi.Controllers.UserController.Register(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
