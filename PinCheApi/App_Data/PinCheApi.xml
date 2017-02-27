@@ -481,6 +481,11 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:PinCheApi.Controllers.BusinessController">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:PinCheApi.Controllers.NetworkController">
             <summary>
             网络相关API
