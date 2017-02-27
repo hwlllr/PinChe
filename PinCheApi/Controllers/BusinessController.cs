@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 
 namespace PinCheApi.Controllers
@@ -9,12 +10,11 @@ namespace PinCheApi.Controllers
     /// <summary>
     /// 
     /// </summary>
-    public class BusinessController : Controller
+    public class BusinessController : ApiController
     {
-        //   GET: Business
-        public ActionResult Index()
+        public string Index()
         {
-            return View();
+            return "";
         }
     }
 }
